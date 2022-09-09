@@ -35,7 +35,7 @@
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: rgb(0, 0, 0);
 }
 
 /* Dropdown content (hidden by default) */
@@ -68,11 +68,33 @@
   display: block;
 }
 
+div.pageTitle p {
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+}
+
+div.pageTitle p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) 
+}
+
+header {
+  text-align: center;
+}
+
 h1 {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 body {
   background-color: rgb(145, 211, 211);
+}
+
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
