@@ -52,7 +52,7 @@
 .dropdown-content a {
   float: none;
   color: black;
-  padding: 12px 16px;
+  padding: 14px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -68,6 +68,12 @@
   display: block;
 }
 
+div.fancy {
+  width: 385px;
+  height: 100px;
+  border: solid black 2px;
+}
+
 div.pageTitle p {
   position: relative;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -81,6 +87,11 @@ div.pageTitle p {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%) 
+}
+
+textarea {
+  font-size: 14px;
+  font-weight: normal;
 }
 
 header {

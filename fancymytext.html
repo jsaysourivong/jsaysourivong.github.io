@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+
+		<!-- link to your script file here -->
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body>
+    <div class="navbar">
+      <a class="active" href="https://jsaysourivong.github.io">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn"> Assignments
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="https://jsaysourivong.github.io/InterestingStuff.html"> Assignment 1</a>
+          <a href="https://jsaysourivong.github.io/stylingOpinion.html"> Assignment 2</a>
+          <a href="https://jsaysourivong.github.io/fancifymytext.html"> Assignment 3</a>
+        </div> 
+      </div>
+    </div>
+		<h1>Fancify my Text</h1>
+    <textarea id="freeform" name="freeform" rows="4" cols="50">Enter text here...</textarea>
+    <fieldset>
+      <div>
+        <input type="radio" id="FancySchmancy" name="styling" value="FancySchmancy" onchange="fancy()" checked>
+        <label for="FancySchmancy">FancySchmancy</label>
+      </div>
+      <div>
+        <input type="radio" id="BoringBetty" name="styling" value="BoringBetty" onchange="boring()" checked>
+        <label for="BoringBetty">BoringBetty</label>
+      </div>
+      <button onclick="bigger()" type="button" id="bigger"> Bigger </button>
+      <button onclick="moo()" type="button" id="moo"> Moo </button>
+		  <!-- Your UI controls go here -->
+    </fieldset>
+    <script src="js/fancifymytext.js"></script>
+	</body>
+</html>
